@@ -44,7 +44,14 @@ nav{
   list-style:none;
   justify-content:space-between;
 } */
-/* .btncontainer{
+.btncontainer{
   display:flex;
-  justify-content:space-around;
-} */
+  justify-content:space-evenly;
+  
+}
+
+#myBox::placeholder {
+  color: #0000009f;
+  opacity: 1;
+  bold: true;
+}
